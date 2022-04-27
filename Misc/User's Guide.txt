@@ -1,0 +1,41 @@
+---------------------------CoolTermWin program------------------------------
+
+https://freeware.the-meiers.org/#CoolTerm
+Website to download CoolTermWin program
+
+https://www.youtube.com/watch?v=RWgyCcnUxPY
+YouTube video with step by step instructions on how to download and use program
+
+-----------------------------------------------------------------------------
+
+----------------------------System Use (Training Guide)---------------------------------------
+
+1. Plug system to computer via usb port.
+
+2. Open CoolTermWin
+	-> Options -> SerialPort -> Select Port -> Set Baudrate 9600
+	-> Connection -> Capture to Text/Binary File -> Start 
+	-> Click Connect
+
+3. Load clamps with material to be tested.
+
+4. Press button to start the data collection.
+
+5. Wait until data is displayed on both LCD screen and CoolTermWin terminal.
+
+6. Pull rope at a slow-controlled speed and force to stretch material.
+	-> If load approaches max load of 5kg, user will be alerted to stop and restart test based on current LCD instructions.
+
+7. When material breaks press button again.
+
+8. Open the text file used to capture data from CoolTermWin in Excel.
+
+9. Calculate / Plot Stress and Strain
+	-> Calculate Stress by converting load (kg) to newtons and dividing by the cross sectional area.
+	-> Calculate Strain by subtracting distance (m) by the length of the material divided by the length of the material.
+	-> Plot Stress Strain Curve and get Young's Modulus and Ult. Tensile Strength
+
+10.Repeat steps to test another material.
+
+-----------------------------------------------------------------------------
+
